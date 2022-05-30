@@ -1,0 +1,61 @@
+/* @import '../../../styles/colors';
+@import '../../../styles/variables'; */
+
+.register__container input {
+        border: none;
+        outline: none
+    }
+
+    .register__container img {
+        width: 100%;
+    }
+
+    .register__heading {
+        font-weight: bold;
+        font-size: 28px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .register__btn {
+        display: block;
+        padding: 12px;
+        text-align: center;
+        background-color: red;
+        transition: nomal;
+        color: white;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        cursor: pointer;}
+
+        .register__btn:hover {
+            background-color: color-hover;
+            color: white;
+        }
+    
+
+    .register__btn-facebook {
+        display: block;
+        padding: 12px;
+        text-align: center;
+        transition: nomal;
+        color: black;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        border: 1px solid color;
+        cursor: pointer;
+    }
+        .register__btn-facebook :hover {
+            background-color: color-hover;
+            color: white;
+        }
+    
+
+
+    .input__message {
+        padding: 8px 0;
+        color: red;
+        font-size: 13px;
+    }
+

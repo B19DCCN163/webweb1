@@ -1,0 +1,91 @@
+/* .introduce__img1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+} */
+    /* .introduce__img1>img{
+        width: 100%;
+        height: auto;
+        transition: transform .6s ease;
+    }
+    .introduce__img1>img:hover{
+        transform: scale(1.2);
+    } */
+
+
+
+.introduce__container1 {
+    background-color: #efeded;
+    /* background-color: black; */
+}
+
+   
+    .introduce__img1 {
+            width: 88%;
+            padding-left: 180px;
+            height: auto;
+            /* overflow: hidden; */
+        }
+
+        .section__content1 {
+            position: relative;
+            padding: 12px;}
+
+            .section__content-heading1 {
+                text-align: center;
+                position: relative;
+                font-size: 38px;
+                line-height: 56px;
+                color: black;
+                font-weight: 500;
+                letter-spacing: 1.4px;
+                padding-top: 40px;
+                z-index: 2;
+
+                @media screen and (min-width: $breakpoint-md) {
+                    font-size: 52px;
+                    line-height: 64px;
+                }
+            }
+
+            .section__content-number1 {
+                font-size: 260px;
+                color: color;
+                font-weight: bold;
+                position: absolute;
+                left: 12px;
+                top: 12px;
+
+                @media screen and (min-width: $breakpoint-md) {
+                    font-size: 280px;
+                }
+            }
+
+            .section__content-desc1 {
+                margin-top: 30px;
+                margin-right: 20px;
+                text-align: justify;
+                font-size: 15px;
+                line-height: 24px;
+                color: rgb(138, 135, 135);
+            }
+
+            .section__content-btn1 {
+                margin: 12px 0;
+                display: inline-block;
+                padding: 8px 12px;
+                background-color: color;
+                color: white;
+                border-radius: 8px;
+                font-size: 13px;
+                font-weight: bold;
+                transition: nomal;
+                text-decoration: none;}
+
+                .section__content1:hover {
+                    cursor: pointer;
+                    background-color: color;
+                }
+            
+      
